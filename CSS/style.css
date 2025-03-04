@@ -206,7 +206,7 @@ li ul li {
         height: 550px;
         display: flex;
         flex-direction: column;
-        background: linear-gradient(rgb(245, 222, 179, 0.5), rgb(164, 7, 77, 0.8)), url(/images/Section-1/Bloc2/femme.svg);
+        background: linear-gradient(rgb(245, 222, 179, 0.5), rgb(164, 7, 77, 0.8)), url(/images/femme.svg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
