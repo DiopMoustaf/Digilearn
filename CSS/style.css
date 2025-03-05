@@ -558,6 +558,7 @@ li ul li {
 
         .learn-more{
             width: 300px;
+            margin: 0 auto;
         }
 
         .learn-more p{
