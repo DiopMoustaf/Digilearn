@@ -554,7 +554,14 @@ li ul li {
             height: 1550px;
             display: flex;
             flex-direction: column;
+        }
 
+        .learn-more{
+            width: 300px;
+        }
+
+        .learn-more p{
+            width: 120px ;
         }
 
         /*---------------------------------------- fin section-6 ----------------------------------------*/
@@ -632,7 +639,6 @@ li ul li {
 
         .bloc-1-section-8{
             margin-bottom: -10em;
-            margin-left: -1em;
         }
 
         .part-1-bloc-1-section-8{
@@ -666,6 +672,7 @@ li ul li {
 
         .media{
             margin: 0 auto;
+            margin-left: 6em;
         }
 
         .bloc-reseaux{
