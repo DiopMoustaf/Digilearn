@@ -570,6 +570,7 @@ li ul li {
         .container-section-7{
             width: 430px;
             height: 300px;
+            margin-left: 0.5em;
         }
 
         .blog-section-7{
@@ -608,15 +609,16 @@ li ul li {
             width: 430px;
             height: 650px;
             margin-top: 2em;
-            margin-bottom: -50em;
+            margin-bottom: -60em;
+            background-color: #1A2434;
         }
 
         .section-8{
             width: 430px;
             height:650px;
             /* margin-bottom: -75em; */
-            margin-left: 8.5em;
-            background-color: aquamarine;
+            margin-left: 10em;
+            background-color: #1A2434;
         }
 
         .container-section-8{
@@ -625,10 +627,12 @@ li ul li {
             display: flex;
             flex-direction: column;
             margin-top: 0;
+            background-color: #1A2434;
         }
 
         .bloc-1-section-8{
             margin-bottom: -10em;
+            margin-left: -1em;
         }
 
         .part-1-bloc-1-section-8{
