@@ -206,7 +206,7 @@ li ul li {
         height: 550px;
         display: flex;
         flex-direction: column;
-        background: linear-gradient(rgb(245, 222, 179, 0.5), rgb(164, 7, 77, 0.8)), url(/femme.svg);
+        background: linear-gradient(rgb(245, 222, 179, 0.8), rgb(164, 7, 77, 0.7)), url(/femme.svg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -325,7 +325,6 @@ li ul li {
     .section-3 {
         width: 430px;
         height: 820px;
-        margin-bottom: 20em;
         margin-left: -10px;
         margin-top: 5em;
     }
@@ -407,10 +406,267 @@ li ul li {
         text-align: center;
     }
 
-    .section-4,
-    .section-5,
-    .section-6,
-    .section-7 {
-        display: none;
+    /*---------------------------------------- fin section-3 ----------------------------------------*/
+
+
+    .section-4{
+        width: 430px;
+        height: 2400px;
+        margin-left: -10px;
+        margin-top: 5em;
     }
+
+    .container-section-4 {
+        width: 430px;
+        height: 2360px;
+    }
+
+    .bloc-1-section-4{
+        width: 430px;
+    }
+
+    .bloc-1-section-4 span{
+        width: 40px;
+    }
+
+    .bloc-1-section-4 p{
+        font-size: 20px;
+    }
+
+    .titre-section-4{
+        width: 400px;
+        font-size: 25px;
+        text-align: center;
+        margin: 0
+    }
+
+    .bloc-module{
+        width: 400px;
+        margin-top: 20px;
+    }
+
+    .bg-bloc-module{
+        width: 120px;
+        border-radius: 16px;
+    }
+
+    .bg-bloc-module p{
+        width: 100%;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bg-bloc-module:hover{
+        background-color: white;
+        border-radius: 16px;
+    }
+
+    .bloc-2-section-4{
+        width: 400px;
+        height: 1950px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -40px;
+    }
+
+        /*---------------------------------------- fin section-4 ----------------------------------------*/
+
+
+        .section-5{
+            width: 430px;
+            height: 950px;
+            margin-left: -10px;
+            margin-top: 5em;
+            margin-top: 0;
+
+        }
+
+        .container-section-5{
+            width: 430px;
+            height: 900px;
+        }
+
+        .part-1-bloc-1-section-5{
+            width: 400px;
+        }
+
+        .part-1-bloc-1-section-5 span{
+            width: 40px;
+        }
+
+        .part-1-bloc-1-section-5 p{
+            font-size: 20px;
+        }
+
+        .titre-section-5{
+            width: 400px;
+            margin: 0 auto;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        .bloc-2-section-5{
+            width: 430px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /*---------------------------------------- fin section-5 ----------------------------------------*/
+
+        .section-6{
+            width: 430px;
+            height: 1820px;
+            margin-left: -10px;
+            margin-top: -1em;
+        }
+
+        .container-section-6{
+            width: 430px;
+            height: 1800px;
+        }
+
+        .part-1-bloc-1-section-6{
+            width: 400px;
+        }
+
+        .part-1-bloc-1-section-6 span{
+            width: 40px;
+        }
+
+        .part-1-bloc-1-section-6 p{
+            font-size: 20px;
+        }
+
+        .titre-section-6{
+            width: 400px;
+            margin: 0 auto;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        .bloc-2-section-6{
+            width: 430px;
+            height: 1550px;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        /*---------------------------------------- fin section-6 ----------------------------------------*/
+
+
+        .section-7 {
+            width: 430px;
+            height: 350px;
+            margin-top: 2em;
+            margin-left: 9.5em;
+        }
+
+        .container-section-7{
+            width: 430px;
+            height: 300px;
+        }
+
+        .blog-section-7{
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: -2em;
+        }
+
+        .blog-1-section-7{
+            width: 400px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .blog-2-section-7{
+            width: 400px;
+        }
+
+        .part-1-blog-2-section-7{
+            width: 270px;
+        }
+
+        .part-2-blog-2-section-7{
+            width: 100px;
+            height: 50px;
+        }
+
+        /*---------------------------------------- fin section-7 ----------------------------------------*/
+
+
+        .bloc-8{
+            width: 430px;
+            height: 650px;
+            margin-left: -10px;
+            margin-top: 2em;
+            margin-bottom: -47em;
+
+        }
+
+        .section-8{
+            width: 430px;
+            height:650px;
+            /* margin-bottom: -75em; */
+            margin-left: 9.5em;
+            background-color: aquamarine;
+        }
+
+        .container-section-8{
+            width: 430px;
+            height: 650px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 0;
+        }
+
+        .bloc-1-section-8{
+            margin-bottom: -10em;
+        }
+
+        .part-1-bloc-1-section-8{
+            width: 200px;
+            height: 100px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .part-1-bloc-1-section-8 img{
+            margin-bottom: 10px;
+        }
+
+        .bloc-1-section-8 p{
+            width: 350px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+
+        .bloc-2-section-8{
+            width: 370px;
+            margin: 0 auto;
+            justify-content: space-between;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .media{
+            margin: 0 auto;
+        }
+
+        .bloc-reseaux{
+            margin-left: -50px;
+        }
 }
